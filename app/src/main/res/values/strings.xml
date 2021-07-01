@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyFootBallApp</string>
+    <string name="Team_A">Team A</string>
+    <string name="Team_B">Team B</string>
+    <string name="_0">0</string>
+    <string name="_plus">+</string>
+    <string name="_minus">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="score_increase_by">Score increase by:</string>
+    <string name="reset">Reset</string>
+
+</resources>
