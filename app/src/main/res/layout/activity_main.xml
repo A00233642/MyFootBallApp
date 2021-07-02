@@ -17,33 +17,31 @@
         app:layout_constraintTop_toBottomOf="@+id/increaseTeamB" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ResetGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="21dp"
         android:layout_marginEnd="7dp"
+        android:onClick="resetGame"
         android:text="@string/reset"
         app:layout_constraintEnd_toStartOf="@+id/decreaseTeamB"
         app:layout_constraintTop_toBottomOf="@+id/decreaseTeamB" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/ScoreIncreaseBy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="97dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="15dp"
         android:text="@string/score_increase_by"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/radio_group"
-        app:layout_constraintEnd_toEndOf="@+id/Team_scoreB"
-        app:layout_constraintStart_toStartOf="@+id/Team_scoreA" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/TeamA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -70,7 +68,6 @@
             android:layout_height="wrap_content"
             android:text="@string/_1"
             android:textColor="#000000"
-
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -95,7 +92,6 @@
         android:id="@+id/decreaseTeamA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="28dp"
         android:text="@string/_minus"
         android:textColor="#fff"
@@ -144,7 +140,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/increaseTeamB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/TeamB" />
 
     <TextView
         android:id="@+id/Team_scoreA"
@@ -161,7 +157,7 @@
         app:layout_constraintTop_toTopOf="@+id/Team_scoreB" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TeamB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
